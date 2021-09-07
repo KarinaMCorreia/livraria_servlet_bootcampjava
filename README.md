@@ -2,7 +2,7 @@
 
 
 >Módulo 1 - 
->Desenvolvimento Java Web utilizando Servlet, JSP e JDBC.
+>Desenvolvimento Java Web utilizando Servlet, JSP, JDBC e MySQL.
 
 
 
