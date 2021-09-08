@@ -58,9 +58,7 @@ public class autoresDao {
 						rs.getDate("dataNascimento").toLocalDate(), 
 						rs.getString("curriculo"));
 
-		
-
-				autores.add(autor);
+				        autores.add(autor);
 
 			}
 

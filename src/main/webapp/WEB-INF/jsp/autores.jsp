@@ -35,24 +35,21 @@
           <div>
           
 		    <div class="birth-date-label-group form-goup ">
-			    <label for="dataNascimento" class="form-label  " style="font-family:  monospace; margin-bottom: -4px;  color:  #000000" >DATA DE NASCIMENTO</label>
+			    <label for="dataNascimento" class="form-label  " style="font-family:  monospace; margin-bottom: -4px;  color: #000000" >DATA DE NASCIMENTO</label>
 		    </div>
-				<input id="dataNascimentodia"  style="width: 59px; height: 25px; border-radius: 6px; "  name="dataNascimentodia" placeholder="DD" type="number" class="  form-input birth-date form-2-digits   col-auto col-1  checklist-field" value="15" size="2" maxlength="2"> 
+				<input id="dataNascimentodia"  style="width: 59px; height: 25px; border-radius: 6px; "  name="dataNascimentodia" placeholder="DD"   type="number"  class="form-input birth-date form-2-digits checklist-field" value="15" size="2" maxlength="2"> 
 				<span class="birth-date-slash">/</span> 
-				<input id="dataNascimentomes" style="width: 59px; height: 25px; border-radius: 6px; " name="dataNascimentomes" placeholder="MM" type="number" class="  form-input birth-date form-2-digits     col-1 checklist-field" value="04" size="2" maxlength="2" > 
+				<input id="dataNascimentomes" style="width: 59px; height: 25px; border-radius: 6px;  "  name="dataNascimentomes" placeholder="MM"   type="number"   class="form-input birth-date form-2-digits checklist-field "  value="4" size="2" maxlength="2" > 
 				<span class="  birth-date-slash">/</span> 
-				<input id="dataNascimentoano" style="width: 59px; height: 25px; border-radius: 6px;  " name="dataNascimentoano" placeholder="AAAA" type="number" class="   mb-2 mt-1  form-input birth-date form-1-digits   col-1 " value="1994" size="4" maxlength="4" >
+				<input id="dataNascimentoano" style="width: 59px; height: 25px; border-radius: 6px;  "  name="dataNascimentoano" placeholder="AAAA" type="number"   class="form-input birth-date form-4-digits checklist-field"  value="1994" size="4" maxlength="4" >
 		  </div>
-
-		<div>
-			<label for="curriculo" style=" font-family: monospace; margin-bottom:-4px; border-radius: 15px;  color: #000000 ">MINI CURRÍCULO</label> 
-			<input id="curriculo"  style=" width: 100%; height: 39px; border-radius: 6px;  "  name="curriculo" required>
-		</div>
-         
-		 <input type="submit" value="Cadastrar" style=" font-family: monospace; margin-bottom: 10px; margin-top: 10px; border-radius: 11px;  background-color: #000000;  color: #00FFFF; "  >
+		   <div>
+			<label for="curriculo" style="font-family:  monospace; margin-bottom: -20px; color: #000000">MINI CURRÍCULO</label>
+			<textarea id="curriculo" name="curriculo" class="form-input form-textarea checklist-field" style="margin: 1px 0px 0 0px; width: 100%; height: 61px; border-radius: 6px; "></textarea>	
+		  </div>
+		        <input type="submit" value="Cadastrar" style=" font-family: monospace; margin-bottom: 10px; margin-top: 10px; border-radius: 11px;  background-color: #000000;  color: #00FFFF; " >
 		 
- </form>
-
+   </form>
 	<div class="p-1 mb-1 bg-dark text-white border" style="width: 100%; border-radius: 10px;">
 		<h2 class="text-center " style="color: #00FFFF; font-family: Courier New; text-shadow: 0px 1px; ">Lista de Autores</h2>
 	</div>

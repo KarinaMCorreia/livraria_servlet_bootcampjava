@@ -16,24 +16,17 @@ public class Autor {
 				+ curriculo + "]";
 	}
 
-	
-
 	public Autor(String nome, String email, LocalDate dataNascimento, String curriculo) {
-		
-		
+
 		this.nome = nome;
 		this.email = email;
 		this.dataNascimento = dataNascimento;
 		this.curriculo = curriculo;
 	}
 
-	
-
 	public Autor(int int1, String string, String string2, LocalDate localDate, String string3) {
-		
+
 	}
-
-
 
 	public String getNome() {
 		return nome;
@@ -74,7 +67,5 @@ public class Autor {
 	public void setId(int id) {
 		this.id = id;
 	}
-	
-	
 
 }
