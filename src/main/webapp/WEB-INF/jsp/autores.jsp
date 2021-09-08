@@ -47,7 +47,7 @@
 			<label for="curriculo" style="font-family:  monospace; margin-bottom: -20px; color: #000000">MINI CURRÍCULO</label>
 			<textarea id="curriculo" name="curriculo" class="form-input form-textarea checklist-field" style="margin: 1px 0px 0 0px; width: 100%; height: 61px; border-radius: 6px; "></textarea>	
 		  </div>
-		        <input type="submit" value="Cadastrar" style=" font-family: monospace; margin-bottom: 10px; margin-top: 10px; border-radius: 11px;  background-color: #000000;  color: #00FFFF; " >
+		        <input type="submit" value="Cadastrar" style=" font-family: monospace; margin-bottom: 10px; margin-top: 10px; border-radius: 11px;  background-color: #000000;  color: #00FFFF; required " >
 		 
    </form>
 	<div class="p-1 mb-1 bg-dark text-white border" style="width: 100%; border-radius: 10px;">
